@@ -23,33 +23,32 @@ def make_bricks(small,big,goal):
 		return True
 	return False
 
-	
-print make_bricks(3, 1, 8) 
-print make_bricks(3, 1, 9) 
-print make_bricks(3, 2, 10)
-print make_bricks(3, 2, 8) 
-print make_bricks(3, 2, 9) 
-print make_bricks(6, 1, 11)
-print make_bricks(6, 0, 11)
-print make_bricks(1, 4, 11)
-print make_bricks(0, 3, 10)
-print make_bricks(1, 4, 12)
-print make_bricks(3, 1, 7) 
-print make_bricks(1, 1, 7) 
-print make_bricks(2, 1, 7)
-print make_bricks(7, 1, 11) 
-print make_bricks(7, 1, 8)
-print make_bricks(7, 1, 13) 
-print make_bricks(43, 1, 46)
-print make_bricks(40, 1, 46)
-print make_bricks(40, 2, 47)
-print make_bricks(40, 2, 50)
-print make_bricks(40, 2, 52)
-print make_bricks(22, 2, 33)
-print make_bricks(0, 2, 10) 
-print make_bricks(1000000, 1000, 1000100)  
-print make_bricks(2, 1000000, 100003)
-print make_bricks(20, 0, 19)
-print make_bricks(20, 0, 21)
-print make_bricks(20, 4, 51)
-print make_bricks(20, 4, 39)
+print str(make_bricks(3, 1, 8)) + " expected output: True"
+print str(make_bricks(3, 1, 9)) + " expected output: False "
+print str(make_bricks(3, 2, 10))+ " expected output:  True "
+print str(make_bricks(3, 2, 8)) + " expected output: True	"
+print str(make_bricks(3, 2, 9)) + " expected output: False "
+print str(make_bricks(6, 1, 11))+ " expected output:  True "
+print str(make_bricks(6, 0, 11))+ " expected output:  False"
+print str(make_bricks(1, 4, 11))+ " expected output:  True "
+print str(make_bricks(0, 3, 10))+ " expected output:  True "
+print str(make_bricks(1, 4, 12))+ " expected output:  False"
+print str(make_bricks(3, 1, 7)) + " expected output: True	"
+print str(make_bricks(1, 1, 7)) + " expected output: False "
+print str(make_bricks(2, 1, 7)) + " expected output: True	"
+print str(make_bricks(7, 1, 11))+ " expected output:  True	"
+print str(make_bricks(7, 1, 8)) + " expected output: True  "
+print str(make_bricks(7, 1, 13)) + " expected output: False"
+print str(make_bricks(43, 1, 46))+ " expected output: True	"
+print str(make_bricks(40, 1, 46))+ " expected output: False"
+print str(make_bricks(40, 2, 47))+ " expected output: True "
+print str(make_bricks(40, 2, 50))+ " expected output: True "
+print str(make_bricks(40, 2, 52))+ " expected output: False"
+print str(make_bricks(22, 2, 33))+ " expected output: False"
+print str(make_bricks(0, 2, 10)) + " expected output: True "
+print str(make_bricks(1000000, 1000, 1000100)) + " expected output: True"
+print str(make_bricks(2, 1000000, 100003)) + " expected output: False"
+print str(make_bricks(20, 0, 19)) + " expected output True "
+print str(make_bricks(20, 0, 21)) + " expected output False"
+print str(make_bricks(20, 4, 51)) + " expected output False"
+print str(make_bricks(20, 4, 39)) + " expected output True "
